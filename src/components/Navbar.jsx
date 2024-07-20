@@ -39,15 +39,12 @@ const Navbar = () => {
               alt="Flowbite Logo"
             />
           </a>
-          <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <div className="flex md:order-last items-center text-[black]  bg-white hover:bg-blue-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-2 py-1 lg:px-3 lg:py-2 text-center">
             {/* Get stated button */}
-            <button
-              type="button"
-              className="flex items-center text-[black]  bg-white hover:bg-blue-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-2 py-1 lg:px-3 lg:py-2 text-center"
-            >
+            <button className="hidden sm:block" type="button">
               Get started
-              <IoIosArrowRoundForward />
             </button>
+            <IoIosArrowRoundForward />
           </div>
           <div
             className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
