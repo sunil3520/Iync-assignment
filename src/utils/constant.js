@@ -58,4 +58,42 @@ export const EightImageList = [
       name: "avlanchi",
       url: "https://s3-alpha-sig.figma.com/img/910f/f9e2/c02d6980cc9cb0c1c61800211cd48aa2?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p-7-4o1xHHae00dKU6QN5esdb4m-Pa-xmj9Lg4RCvmU-kuu9L8pX2UCYsX5kfLFIxGd~EFwGu2HiW6FU5T8Qjpl69nf3Zb6AD-XAzfhKKZqzkiRau-KdTBwTQoR~t30YI3Lvq05FwaLGwQnyASlJQuysAjccEBcSzCEa4tbuc1sMDbI7mWojm7tR8Sm5ebh7zuIGBqoqa9IzcvHFReWil~zsVIEQsHm5JYGGB7KgWQniX2eD9NIUwPTvDMMYpbvNyxawWi8O0XjgJWNaCJAIN9BAIugsrbg9z5DwSHR5jBm7MtvJQ5kLhGR6qpYr85spR8NeG7z62BHjhCOPVFuJjQ__"
     }
+]
+
+export const EightImageList2 = 
+
+[
+  {
+    name: "Filecoin",
+    url: "https://s3-alpha-sig.figma.com/img/dbdc/7e9a/bfcd02ad161d771b33c514344895a2c0?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EQ29Nr2ra5BB~9DR2WXkB7upGXdi2xEaBm0AUNIukbssu-qk4tYCOPUUyk26BC4KQtXGpYrvXFG7w09Sk33d2dnY-UC6Pkhr8RBSFCK3dG5XDw9yj-DAhdXzGNl~rzPjCDb1tq9BZiM5-hist2sHjmRDg-aZ~muy0rBexTeyVBLGN9bE1Xjd6DUF4LA0ufA8M-wIMNPYOK9so~OETOerGEzs8xNi~5rhuxMJyOTgn3ueqRSPfbSunN3V6WX~hrYpd8-ltZF3mtbuk2Xgx-79OAx9rRamGHNJ2xMvRMu~hzxKx~VPQRlzKL47nETSU3rBMbuZ9Y87PwJ-l81EGM~2xQ__"
+  },
+  {
+    name: "chainlink",
+    url: "https://s3-alpha-sig.figma.com/img/ae78/38b8/871df777e93df73a5eca0771db48737f?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Qtn03Z0aB253dqjIemabaQvjQrMZi~4nD~sIWtywawaYWMsTWPIos6slmvz9QeTxLC0lfVoRXkAjoC1GQuC3Sn4tLQ8-rkZya-VowHbyOI81JYlCvjD5GTRFTRXKqaRZk9-ByusSFzW4JLJ0fNVqitl5u~AhXZebFPvvaQvkv7yFTKDikfy8JaW7JnP5isl0QaA-uyof7h~hULa7bNf9msWUFQ~LEIm2VOeNH9eSby7AVpFjkg31eZ0dHldZL40O3lj~KXl6jUJ-MVIP9T9e4CsFpwZCYNk5wzRJNV3VDZ7D1v1DlhMQqnRGtWtcNHeoqyE3iLd7ujrv4z-itYoMYg__"
+  },
+  {
+    name: "spheron",
+    url: "https://s3-alpha-sig.figma.com/img/28cc/1bac/9c4b1085b4ee2317b5bdfdc01efe136b?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EWfcPTzK-RaNHwl7jKQHir7gP0HPjRfz8NA5ycw~~FXTs9-c0OdHLEdVVBNgDzuviHQOlXw9b5zsLT4yCVE9PoOgBbxOOuqf82JkEgqiI39G-RaoLg3L7qmECNXNoic3wp4p34eOH8IAgQYkN1YrWq-0K27F6r4gXVyENr4U-MMZdo8YEVHxj164PE1rmNAkDBnDYwlzCfWt4e3u6QtUDIWVBF9JyuR7dCOhD4DgWocj1qd~3sAFCifDGEHbbqatN55MFKHoKHXZ9x8CpmPuUH9S~NBTcwoBdoNDAKaDOmh5gVDCcVeFG2tSlXpwaxCZ8a99eMFHwzlFGIGB1tcTmA__"
+  },
+  {
+    name: "longhash",
+    url: "https://s3-alpha-sig.figma.com/img/d0f1/fa05/c75ea6b22b9e8845470e5ddc2392aef9?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=X2XyhKZXCJ8EWrZIsr5avZCnn1SJFGXcBnVDV~-46ivozhYxi5HXEr-Bmt3QjCuqiYpSUQGDN7QAgQBQZ9UP~W0EoUwIVPUyfcPsXYUuMvN~MisX1i1FuKatIkZjMZ7HKAxzu0hHqPfUFJ2YU-79OtS9IE2XY0FbJDedX2uPMYMlETQHxtBH-TkrsnkAI6~CV2w1TC5GQgwWJpMi3PrmWuZ5ccpCavdDAmw2lei3ZtHx2XEpjILmJZZzj4P5ys6zn7fCN0U5VMmwmI9D4UQfF~gtCbWC-4lMErok9RYwr1t8NHg8OJ8zwDiVGMlYSKNyswPOn~~HY4yXP3iwBewXpA__"
+  },
+  {
+    name: "axelar",
+    url: "https://s3-alpha-sig.figma.com/img/6d02/42bc/cb12b63990c168a2947fb279265e41a9?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QvP73QtHfRFb2QzKzwPkiHV4UWQuoyUpblotFdGbEhHYjvldzcTwKZisrubTm0huC6hSmjsaeeSnBxxcbYIuTfv1p5MYwl1FTdPPQgxlo7qCY~A7a6d~6793KfhZAG1JnYOkMAUUBGjQeXlE1X2Y6fK7oZs6bu2WE~rGOP3ie0H58DWXddCox-hBhGuaHXvAhDYLUpQ3XLsW58jy0iJtI5T6DqS-PykOG8IBdDdNlf3FHqgGp6m9izM3PdhNOSHSpbCKCKSABkAzida5KtI2QM1Wz2XmRSwjb4Avwk-emJmnWqNd-Hgf71a6DV5hozAqiV9F3K7GsBq52tRn-zXaWQ__"
+  },
+  {
+    name: "biconamy",
+    url: "https://s3-alpha-sig.figma.com/img/cc00/c22a/7a1f2c315ede4dafc1e75d85610d6de9?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FaIImOAkq3NulqbggHi6VE7Opkl9Y2F8GQzrRcs8KdAyeT5-OGZtpY1j2qUhBh8lfSFmexXqQLV2-wPVVqOpXbn3RGXNRFlhWcibcpODFY40RIw2xPouLhpcJh5Wa9ENfz58eo-0kePMNeWRLHd5ZyMCWOKjvDJc4W-AUySS3gBqqcxhPruK3zBASVGm9CgzhF3KnSDGoElT2q7miS-30uJfiIzRUjcp8ckr-2ghwrbS3wKzTTudWWbFVYXP12TWa1Ede8mgNW0ev3lm~WLt-ZK1VVWSEJIXCVgORmG7M6ZTRR~fM~R5lf578iDYjGplc4kbAWhhS1jAK-q1IZG-rg__"
+  },
+  {
+    name: "lighthouse",
+    url: "https://s3-alpha-sig.figma.com/img/59eb/d7a2/03e5da0fd05c05d8f147e58b4d2b9b51?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NIx9SGGELX5KdDCROW6dI6~w9KSlvPKED4czxptaBLzj99yCJqe0-BiNQfcU0WS-d1GmyQ9sLEpjmeZOLohDUqgVePhbWuk161RzRmlOaP-YnqeLuMFZkP~l5IO7GCndJH0ReqI7oupZUafLVNg63ZUJsQTPQW8KQYqa0iU3h9D10Ynt6w-ZXEwbRzJUV0JntRWi53x04E8NaqYhzcYG7fP594umkxVCg~62ggULKeJFmePKjJLc7LiVbas763oH5SgK5K~76g7F47SnqeUjAbHEGRMldDFsPeGSuPBq5QzCwz7wCtWW23b8Exh2e7sWmRfVgv7bfaDLDDLQNp4Ucw__"
+  },
+
+  {
+    name: "urdu",
+    url: "https://s3-alpha-sig.figma.com/img/f773/e7cb/2a5b181e33c8a3dbfc6485db0af345a8?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Eq8zLAooZZACQU9JjqUZk0BF3NyhcCG0VEPK4aYYBB6FVOxJPKkOHmi-OYAnVtt7RRE12Lb~EJ6sHEZXSgfPBS0WY3cL3nwGg7nxqx8pug3dp8ITgD64VZtGCRAf1q56W0M2u7osfIVBl2q9fA2kTa-xZ-Mkgz10lfI9E9m6In4-gwT4WqEQ619mpH8RII1e8nIBi4eIAaSH5fzjle1iIpzGXhMUD54sizTMMgcKTbjUYVeSbPVAml3pyMcLbo0XEnhbK6HrVFQx1SeDWmsCXO4U47NzdXea6RRds1DnoZBZpYYadqglV-lPMB9Ll~wODvp53esdJKXWJ7Wnj4tzjw__"
+  }
 ]  

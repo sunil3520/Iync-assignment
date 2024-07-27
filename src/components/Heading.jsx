@@ -5,23 +5,23 @@ import { ThreeImagesList } from "../utils/constant";
 const Heading = () => {
   return (
     <div>
-      <div className=" w-[75%] m-auto text-center mt-20 ">
-        <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+      <div className=" w-[75%] flex flex-col items-center m-auto text-center mt-20 ">
+        <h1 className=" mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:w-[68%] md:text-5xl lg:text-7xl dark:text-white">
           Launch Your Game on{" "}
           <span className="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">
             Web 3.0
           </span>{" "}
           in Minutes
         </h1>
-        <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+        <p className="mb-6 text-lg font-normal text-gray-500 lg:text-2xl  sm:px-16 xl:px-48 dark:text-gray-400">
           We help game developers to launch their game on Web 3.0, by keeping
           blockchain complexities aside with WebWorld SDKs!
         </p>
       </div>
-      <div className="flex flex-col w-[70%] m-auto md:w-[150px] ">
+      <div className="flex flex-col w-[70%] m-auto  md:flex-row md:justify-center">
         <button
           type="button"
-          className="flex items-center justify-center md:gap-3 text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl font-sm rounded-full text-sm px-3 py-3 lg:px-3 lg:py-2"
+          className="flex items-center justify-center md:gap-3 text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl font-sm rounded-full text-sm px-3 py-3  lg:px-3 lg:py-2"
         >
           Get started
           <IoIosArrowRoundForward />

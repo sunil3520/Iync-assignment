@@ -5,21 +5,21 @@ import { PiGameController } from "react-icons/pi";
 const Footer = () => {
   return (
     <div>
-      <div className="w-[80%] mx-auto flex flex-col justify-center items-center">
-        <h1 className="text-4xl">LYNC</h1>
-        <h3>Got a game idea ? Let's make it big together !!!</h3>
+      <div className="mb-24 relative w-[80%] mx-auto flex flex-col justify-center items-center">
+        <h1 className="text-4xl md:text-8xl font-serif">LYNC</h1>
+        <h3 className=" md:w-[40%]  absolute md:text-4xl text-white">Got a game idea ? Let's make it big together !!!</h3>
         <button
           type="button"
-          className="flex items-center justify-center text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl font-sm rounded-full text-sm px-3 py-3 lg:px-3 lg:py-2"
+          className=" mt-12 flex items-center justify-center text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl font-sm rounded-full text-sm px-3 py-3 lg:px-3 lg:py-2"
         >
           Get started
           <IoIosArrowRoundForward />
         </button>
       </div>
-      <div>
-        <div>
-          <h1 className="text-3xl font-bold">LINK</h1>
-          <p>A GameFi Infrastructure</p>
+      <div className="lg:w-[80%] mx-auto lg:flex lg:justify-evenly">
+        <div className="text-white">
+          <h1 className="text-3xl font-bold md:text-6xl font-serif">LINK</h1>
+          <p >A GameFi Infrastructure</p>
           <div className="flex gap-2 items-center">
             <span className="border-2 border-slate-600 rounded-full p-1">
               <CiLinkedin />{" "}
@@ -32,7 +32,7 @@ const Footer = () => {
             </span>
           </div>
         </div>
-        <div className="text-gray-400 grid grid-cols-2">
+        <div className="text-gray-400 grid grid-cols-2 md:grid-cols-3 md:gap-8">
           <div>
             <h3 className="text-white">Product</h3>
             <p>SDK's</p>
@@ -58,18 +58,22 @@ const Footer = () => {
         <div>
           <h3 className="text-white">Supercharge your inbox</h3>
           <p>Sign up for our newsletter</p>
-          <div>
-            <input type="text" placeholder="enter your email">
+          <div className="relative w-full max-w-sm">
+            <input type="text" placeholder="enter your email" className="w-full pr-20 py-3 px-6 rounded-full text-black"/>
               
-            </input>
+         
             <button
                 type="button"
-                className="flex items-center justify-center text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl font-sm rounded-full text-sm px-3 py-3 lg:px-3 lg:py-2"
+                className=" absolute right-0 top-1 flex items-center justify-center text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl font-sm rounded-full text-sm px-3 py-3 lg:px-8 lg:py-2"
               >
                 submit
               </button>
           </div>
         </div>
+      </div>
+      <div className="border-[0.5px]"></div>
+      <div className="flex justify-center text-white">
+      <div>2024 LYNC World  · Terms of service</div>
       </div>
     </div>
   );

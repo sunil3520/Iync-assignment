@@ -5,8 +5,8 @@ let navArr = ["Home", "Documentaion", "Blog", "Lync Portal", "Request a demo"];
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <div>
-      <nav className="text-[white] bg-[#3d2e5a] w-[90%] md:[80%] m-auto  border-red-700 rounded-full">
+    <div className="pt-20 sticky top-0 z-50">
+      <nav className="text-[white] p-4 bg-[#3d2e5a] w-[90%] md:w-[70%] mx-auto  border-red-700 rounded-full">
         <div className=" flex flex-wrap items-center justify-between mx-auto p-2 md:p-3">
           <button
             onClick={() => setToggle(!toggle)}

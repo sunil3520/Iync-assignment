@@ -73,14 +73,14 @@ const Slider2 = () => {
   };
 
   return (
-    <div className="text-white relative w-[90%] mx-auto">
-      <h2 className="w-[70%] mx-auto text-center text-white font-bold text-2xl">
+    <div className="text-white relative w-[90%] md:w-[70%] mx-auto">
+      <h2 className="w-[70%] mx-auto text-center text-white font-bold text-2xl md:text-6xl md:mt-28 md:mb-12">
         Valuable <span>Reviews</span>
       </h2>
 
       <div className="relative flex items-center justify-center mt-4">
         <button
-          className="bg-[#282222] border-[1px] rounded-full p-2 absolute left-2 z-10"
+          className="bg-[#282222] border-[1px] rounded-full p-2 absolute -left-8 z-10"
           onClick={handlePrev}
         >
           <MdKeyboardArrowLeft fontSize={"20px"} />
@@ -88,7 +88,7 @@ const Slider2 = () => {
         <div className="flex overflow-hidden w-full justify-center">
           {getVisibleSlides().map((el, i) => (
             <div key={i} className="w-full sm:w-1/2 lg:w-1/3 p-3">
-              <div className="w-full h-full border-2 rounded-lg bg-[#282222] p-4">
+              <div className="w-full h-full  rounded-lg bg-[#282222] p-4">
                 <div className="">
                   {/* You can add an image or any other content here */}
                 </div>
@@ -104,7 +104,7 @@ const Slider2 = () => {
           ))}
         </div>
         <button
-          className="bg-[#282222] border-[1px] rounded-full p-2 absolute right-2 z-10"
+          className="bg-[#282222] border-[1px] rounded-full p-2 absolute -right-8 z-10"
           onClick={handleNext}
         >
           <MdKeyboardArrowRight fontSize={"20px"} />
